@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+     max-width: 1000px;
+     margin:20px auto;  
 }
 h2{
     color: #4CAF50;
@@ -22,10 +22,11 @@ p.highlight{
     padding: 10px;
     border: 1px dashed #ff9800;
 }
-div #container{
-    background-color:#e0f7fa;
+#container{
+    background-color: #e0f7fa;
     padding: 20px;
-    border: 2px solid #00acc1;
+    border: 3px solid rgb(68, 152, 191);
+    margin: 20px auto;
 }
 a[target="_blank"]{
     color: #e91e63;
@@ -51,11 +52,11 @@ font-size:18px;
 border:0;
 height:1px;
 background-color:#4CAF50;
-margin:10 px 0;
+margin:10px 0;
 }
 
 h3~p{
-font-fam,ily:'Georgid',serif;
+font-family:'Georgid',serif;
 color:#555;
 }
 
